@@ -25,6 +25,12 @@ function getFourthNum(){
 function smallNums(){
     let smallNums = [];
     // Your answer here:
+    for (var i = 0; i < numbers.length; i++) {
+      if (numbers[i]<10){
+        smallNums.push(numbers[i])
+      }
+    }
+    return smallNums;
 }
 
 /*
@@ -32,6 +38,7 @@ function smallNums(){
 */
 function addNums(){
     // Your answer here:
+    numbers.push (12, 99, 101)
 }
 
 
